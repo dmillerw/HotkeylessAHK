@@ -1,0 +1,105 @@
+{
+  "default": [
+    [
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      },
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      },
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      },
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      },
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      },
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      },
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      },
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      },
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      },
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      },
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      }
+    ],
+    [
+      {
+        "command": "SendKeys",
+        "arg": "",
+        "color": "#3700B3",
+        "highlightColor": "#BB86FC",
+        "title": "New Tile",
+        "icon": "fiber_new"
+      }
+    ]
+  ],
+  "_default": "default"
+}

@@ -1,27 +1,47 @@
-﻿#NoEnv
-SendMode Input
+﻿OutputDebug, Init
+
+#Persistent
 SetWorkingDir %A_ScriptDir%
-Menu, Tray, Icon, shell32.dll, 147
-#singleinstance force
 
 #Include files/lib.ahk
 
-; HotkeylessAHK by sebinside
-; ALL INFORMATION: https://github.com/sebinside/HotkeylessAHK
-; Make sure that you have downloaded everything, especially the "/files" folder.
-; Make sure that you have nodeJS installed and available in the PATH variable.
+OutputDebug, Menu
+
+Menu, Tray, Icon, shell32.dll, 147
+Menu, Tray, NoStandard
+Menu, Tray, Add, &Stop, Stop
+
+OutputDebug, Client/Server
 
 SetupServer()
-RunClient()
+SetupClient()
 
-; Your custom functions go here!
-; You can then call them by using the URL "localhost:42800/send/yourFunctionName"
-; The funciton name "kill" is reserved to end the script execution.
+OutputDebug, End
 
-HelloWorld() {
-    MsgBox, Hello World
+Return
+
+Stop:
+StopServer()
+Return
+
+StopServer() {
+	OutputDebug, Stopping server
+	
+	Run curl ""http://localhost:42800/kill""
+	
+	ExitApp
 }
 
-OpenExplorer() {
-    Run, explorer.exe
+; Standard Functions
+
+Debug(msg) {
+	MsgBox, %msg%
+}
+
+SendKeys(keys) {
+	Send, %keys%
+}
+
+CustomTestFunc() {
+	MsgBox, Hello
 }
